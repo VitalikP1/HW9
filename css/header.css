@@ -1,0 +1,14 @@
+.offer {
+}
+
+@media (min-width: 480px) {
+    .hero {
+        min-height: 700px;
+        }
+    }
+
+@media (min-width: 769px) {
+    .hero {
+        min-height: 700px;
+        }
+    }

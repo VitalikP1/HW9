@@ -1,0 +1,26 @@
+.btn {
+    --h: 40px;
+    --w: 280px;
+    --bdw: 2px;
+    display: block;
+    height: var(--h);
+    width: var(--w);
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    line-height: calc(var(--h) - 2 * var(--bdw));
+    font-size: 14px;
+    font-weight: bold;
+    border: var(--bdw) solid transparent;
+    border-radius: calc(var(--h) / 2);
+}
+
+.btn__dark {
+    background: #ff4e50;
+    color: #fff;
+}
+
+.btn__dark:hover {
+    color: #ff4e50;
+    background: #fff;
+}

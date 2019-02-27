@@ -1,0 +1,18 @@
+@import "./account.css";
+@import "./button.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./logo.css";
+@import "./partner.css";
+@import "./partners.css";
+@import "./slogan.css";
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,25 @@
+.partner__img-wrp {
+    position: relative;
+    margin: 0 auto;
+    --s: 122px;
+    height: var(--s);
+    width: var(--s);
+}
+
+.partner__img {
+    border-radius: 50%;
+}
+
+.partner__icon-wrp {
+    position: absolute;
+    --s: 40px;
+    height: var(--s);
+    width: var(--s);
+    border-radius: 50%;
+    background: #ff4e50;
+    border: 4px solid #fff;
+}
+
+.partner__icon {
+    margin: 7px auto;
+}
