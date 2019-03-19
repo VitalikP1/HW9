@@ -6,6 +6,7 @@
 @import "./partner.css";
 @import "./partners.css";
 @import "./slogan.css";
+@import "./icons.css";
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -15,4 +16,32 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.headline {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    padding: 70px 0 12px;
+}
+
+.wrapper {
+    width: 320px;
+    padding-bottom: 58px;
+}
+
+@media (min-width: 480px) {
+    .wrapper {
+        width: 492px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 769px) {
+    .wrapper {
+        width: 942px;
+        padding-bottom: 72px;
+    }
 }

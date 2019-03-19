@@ -2,9 +2,17 @@
     display: block;
     color: #fff;
     font-family: "Montserrat";
+    padding-top: 114px;
+    margin: 0;
 }
 
 a.logo__link {
     color: #fff;
     text-decoration: none;
+}
+
+@media (min-width: 480px) {
+    .logo {
+        padding: 0;
+    }
 }

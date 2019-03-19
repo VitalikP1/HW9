@@ -5,20 +5,28 @@
 .slogan__title {
     font-weight: bold;
     font-size: 30px;
+    padding: 40px 0 18px;
 }
 
 .slogan__subtitle {
     font-weight: bold;
     font-size: 18px;
     font-family: "Roboto";
+    padding-bottom: 18px;
+}
+
+@media (min-width: 480px) {
+    .slogan__title {
+    padding: 140px 0 30px;
+}
+
+.slogan__subtitle {
+font-size: 40px;
+}
 }
 
 @media (min-width: 769px) {
     .slogan__title {
     font-size: 52px;
 }
-
-    .slogan__subtitle {
-    font-size: 24px;
-    }
 }

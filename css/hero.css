@@ -4,6 +4,7 @@
     background-position: top center;
     background-size: cover;
     background-image: url("../photo/offer.jpg");
+    padding: 20px 20px 138px;
 }
 
 @media (min-width: 480px) {

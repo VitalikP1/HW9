@@ -17,10 +17,32 @@
     height: var(--s);
     width: var(--s);
     border-radius: 50%;
-    background: #ff4e50;
+    background-position: center;
+    padding: 7px 0;
     border: var(--bdw) solid #fff;
+    bottom: -4px;
+    right: -4px;
 }
 
 .partner__icon {
+    margin: 0 auto;
+}
+
+.partner__name {
+    text-align: center;
+    color: #333;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.partner__about {
+    width: 224px;
+    text-align: center;
+    color: #666;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.2;
     margin: 0 auto;
 }

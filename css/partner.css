@@ -1,0 +1,7 @@
+.partner {
+    padding-bottom: 28px;
+}
+
+.partner:last-child {
+    padding: 0;
+}

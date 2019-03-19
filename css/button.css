@@ -24,3 +24,28 @@
     color: #ff4e50;
     background: #fff;
 }
+
+.btn-partners {
+    display: block;
+    width: 280px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.btn-partners__light {
+    background: #fff;
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+}
+
+.btn-partners__light:hover {
+    color: #ffffff;
+    background: #ff4e50;
+}
